@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\danie\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\danie\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_LocomotionQuest.1305136695.00" t="ExcludeRecursive" />
+    <e p="D:\Softwareprojekte\LocomotionQuest" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Locomotion" t="Include">
+            <e p="Steering" t="Include">
+              <e p="Inputs" t="Include">
+                <e p="EmptyInputSlot.cs" t="Include" />
+                <e p="KeyboardForward.cs" t="Include" />
+                <e p="KeyboardSideways.cs" t="Include" />
+                <e p="MouseRelativeForward.cs" t="Include" />
+                <e p="MouseRelativeSideways.cs" t="Include" />
+              </e>
+              <e p="Interfaces" t="Include">
+                <e p="IAxisInput.cs" t="Include" />
+                <e p="IRotationMethod.cs" t="Include" />
+                <e p="ISpeedInput.cs" t="Include" />
+                <e p="ITranslationMethod.cs" t="Include" />
+              </e>
+              <e p="vRotation" t="Include">
+                <e p="JoystickRotation.cs" t="Include" />
+                <e p="SimpleMouseLook.cs" t="Include" />
+              </e>
+              <e p="vTranslation" t="Include">
+                <e p="JoystickTranslation.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="LocomotionQuest.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7c294f00-4617-4fac-beeb-8a2f222af167" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/EmptyInputSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vRotation/JoystickRotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IRotationMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardForward.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeSideways.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IRotationInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/KeyboardAndMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ISpeedInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/MouseInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/MouseAxesInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/SimpleMouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/JoystickTranslation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardAxesInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseAxesInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/EmptyInputSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardSideways.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeSideways.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ISteeringMethod.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vTranslation/JoystickTranslation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IRotationMethod.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseAbsoluteLocal.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vRotation/SimpleMouseLook.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vRotation/JoystickRotation.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sQgkwlc6NWd08BZLuuJpiS0Thh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c294f00-4617-4fac-beeb-8a2f222af167" name="Default Changelist" comment="" />
+      <created>1620810373713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620810373713</updated>
+      <workItem from="1620810377382" duration="879000" />
+      <workItem from="1620811330390" duration="3199000" />
+      <workItem from="1620814616623" duration="3049000" />
+      <workItem from="1621249527557" duration="5572000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
