@@ -565,6 +565,7 @@ GameObject:
   - component: {fileID: 1232545880}
   - component: {fileID: 1232545881}
   - component: {fileID: 1232545882}
+  - component: {fileID: 1232545883}
   m_Layer: 0
   m_Name: PlayerPlatform
   m_TagString: Untagged
@@ -595,14 +596,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1232545879}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1c14589a980a54bb0912fcbd048dec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardAxis: {fileID: 10068835}
-  sidewayAxis: {fileID: 1095308644}
-  upAxis: {fileID: 0}
+  rollAxis: {fileID: 0}
+  yawAxis: {fileID: 0}
+  pitchAxis: {fileID: 0}
+  pitchTurningLimit: 90
+  yawTurningLimit: 180
+  rollTurningLimit: 90
 --- !u!114 &1232545882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,6 +623,22 @@ MonoBehaviour:
   sidewayAxis: {fileID: 492968397}
   upAxis: {fileID: 0}
   maxSpeed: 5
+--- !u!114 &1232545883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232545879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ae1cefc685c49240b3013ae7d46e339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rollAxis: {fileID: 0}
+  yawAxis: {fileID: 492968397}
+  pitchAxis: {fileID: 0}
+  maxSpeed: 90
 --- !u!1 &1722897948
 GameObject:
   m_ObjectHideFlags: 0
