@@ -10,6 +10,6 @@ public class SimpleMouseLook : IRotationMethod
     
     void Update()
     {
-        transform.eulerAngles = new Vector3( pitchAxis.GetAxis() * pitchTurningLimit , yawAxis.GetAxis() * yawTurningLimit, rollAxis.GetAxis() * rollTurningLimit);
+        transform.eulerAngles = new Vector3( pitchAxis.Get() * pitchTurningLimit , yawAxis.Get() * yawTurningLimit, rollAxis.Get() * rollTurningLimit);
     }
 }

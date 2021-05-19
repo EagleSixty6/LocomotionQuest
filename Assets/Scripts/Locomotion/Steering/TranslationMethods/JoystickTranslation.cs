@@ -8,7 +8,7 @@ public class JoystickTranslation : ITranslationMethod
     
     void Update()
     {
-        Vector3 direction = new Vector3(sidewayAxis.GetAxis(), upAxis.GetAxis(), forwardAxis.GetAxis());
+        Vector3 direction = new Vector3(rightAxis.Get(), upAxis.Get(), forwardAxis.Get());
         
         // in case the direction input source serves a 3D input, better normalize to "ground"
         direction = Vector3.ProjectOnPlane(direction.normalized, Vector3.up);

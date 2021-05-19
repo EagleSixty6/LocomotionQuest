@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class IAxisInput : MonoBehaviour
 {
-    public abstract float GetAxis();
+    public abstract float Get();
 }

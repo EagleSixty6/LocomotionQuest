@@ -1746,7 +1746,6 @@ Transform:
   - {fileID: 492968396}
   - {fileID: 1095308645}
   - {fileID: 10068834}
-  - {fileID: 1722897950}
   m_Father: {fileID: 1232545880}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3012,7 +3011,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232545880}
-  - component: {fileID: 1232545881}
   - component: {fileID: 1232545882}
   - component: {fileID: 1232545883}
   m_Layer: 0
@@ -3038,24 +3036,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1232545881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1232545879}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d1c14589a980a54bb0912fcbd048dec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rollAxis: {fileID: 0}
-  yawAxis: {fileID: 0}
-  pitchAxis: {fileID: 0}
-  pitchTurningLimit: 90
-  yawTurningLimit: 180
-  rollTurningLimit: 90
 --- !u!114 &1232545882
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3069,8 +3049,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forwardAxis: {fileID: 1788165369}
-  sidewayAxis: {fileID: 492968397}
+  rightAxis: {fileID: 492968397}
   upAxis: {fileID: 0}
+  speedAxis: {fileID: 0}
   maxSpeed: 5
 --- !u!114 &1232545883
 MonoBehaviour:
@@ -3085,9 +3066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rollAxis: {fileID: 0}
-  yawAxis: {fileID: 1071190318}
+  yawAxis: {fileID: 1095308644}
   pitchAxis: {fileID: 0}
-  maxSpeed: 90
+  maxSpeedPerAxis: 90
 --- !u!4 &1264944053 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 27ae6da1f5fbaa9499c7f3a79f62a891,
@@ -3823,49 +3804,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 456378170535307448435cb4e0a6008e, type: 3}
---- !u!1 &1722897948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1722897950}
-  - component: {fileID: 1722897949}
-  m_Layer: 0
-  m_Name: Empty
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1722897949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722897948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddfdf0abc77ca704fb31bbc62df40725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1722897950
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722897948}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 662819586}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1754390363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: da95a8ad5c844144fb2e9a9b76deb16f,

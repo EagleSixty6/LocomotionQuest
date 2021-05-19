@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EmptyInputSlot : IAxisInput
 {
-    public override float GetAxis()
+    public override float Get()
     {
         return 0f;
     }

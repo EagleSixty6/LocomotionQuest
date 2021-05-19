@@ -5,9 +5,11 @@ using UnityEngine;
 public abstract class ITranslationMethod : MonoBehaviour
 {
     public IAxisInput forwardAxis;
-    public IAxisInput sidewayAxis;
+    public IAxisInput rightAxis;
     public IAxisInput upAxis;
 
+    public IAxisInput speedAxis;
+    
     void Start()
     {
         if (forwardAxis == null)
@@ -15,14 +17,19 @@ public abstract class ITranslationMethod : MonoBehaviour
             forwardAxis = new EmptyInputSlot();
         }
 
-        if (sidewayAxis == null)
+        if (rightAxis == null)
         {
-            sidewayAxis = new EmptyInputSlot();
+            rightAxis = new EmptyInputSlot();
         }
 
         if (upAxis == null)
         {
             upAxis = new EmptyInputSlot();
+        }
+        
+        if (speedAxis == null)
+        {
+            speedAxis = new EmptyInputSlot();
         }
     }
 }

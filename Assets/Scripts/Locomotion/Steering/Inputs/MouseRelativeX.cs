@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseRelativeX : IAxisInput
 {
-    public override float GetAxis()
+    public override float Get()
     {
         // relative position to bottom left corner [0,1]
         float relativePosition = Input.mousePosition.x / Screen.width;

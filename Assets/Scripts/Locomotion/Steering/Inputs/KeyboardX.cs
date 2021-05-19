@@ -23,7 +23,7 @@ public class KeyboardX : IAxisInput
         axis = temp;
     }
     
-    public override float GetAxis()
+    public override float Get()
     {
         return axis;
     }
