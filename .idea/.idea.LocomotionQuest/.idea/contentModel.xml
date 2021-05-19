@@ -16,22 +16,26 @@
             <e p="Steering" t="Include">
               <e p="Inputs" t="Include">
                 <e p="EmptyInputSlot.cs" t="Include" />
-                <e p="KeyboardForward.cs" t="Include" />
-                <e p="KeyboardSideways.cs" t="Include" />
-                <e p="MouseRelativeForward.cs" t="Include" />
-                <e p="MouseRelativeSideways.cs" t="Include" />
+                <e p="KeyboardX.cs" t="Include" />
+                <e p="KeyboardY.cs" t="Include" />
+                <e p="MouseRelativeX.cs" t="Include" />
+                <e p="MouseRelativeY.cs" t="Include" />
+                <e p="Transferfunctions" t="Include">
+                  <e p="Exponential.cs" t="Include" />
+                </e>
               </e>
               <e p="Interfaces" t="Include">
                 <e p="IAxisInput.cs" t="Include" />
+                <e p="IAxisTransferfunction.cs" t="Include" />
                 <e p="IRotationMethod.cs" t="Include" />
                 <e p="ISpeedInput.cs" t="Include" />
                 <e p="ITranslationMethod.cs" t="Include" />
               </e>
-              <e p="vRotation" t="Include">
+              <e p="RotationMethods" t="Include">
                 <e p="JoystickRotation.cs" t="Include" />
                 <e p="SimpleMouseLook.cs" t="Include" />
               </e>
-              <e p="vTranslation" t="Include">
+              <e p="TranslationMethods" t="Include">
                 <e p="JoystickTranslation.cs" t="Include" />
               </e>
             </e>

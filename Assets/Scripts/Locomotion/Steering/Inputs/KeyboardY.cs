@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyboardForward : IAxisInput
+public class KeyboardY : IAxisInput
 {
     private float axis;
 
@@ -10,12 +10,12 @@ public class KeyboardForward : IAxisInput
     {
         float temp = 0f;
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             temp += 1;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             temp += -1;
         }

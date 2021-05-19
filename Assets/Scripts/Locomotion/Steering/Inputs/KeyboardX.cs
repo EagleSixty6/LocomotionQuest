@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyboardSideways : IAxisInput
+public class KeyboardX : IAxisInput
 {
     private float axis;
 
@@ -10,12 +10,12 @@ public class KeyboardSideways : IAxisInput
     {
         float temp = 0f;
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             temp += -1;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             temp += 1;
         }
