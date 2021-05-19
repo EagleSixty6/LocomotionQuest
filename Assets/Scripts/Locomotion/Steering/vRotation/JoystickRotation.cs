@@ -9,6 +9,6 @@ public class JoystickRotation : IRotationMethod
     void Update()
     {
         // TODO catch summed speed
-        transform.Rotate(0,yawAxis.GetAxis() * maxSpeed * Time.deltaTime,0  ); 
+        transform.Rotate(0,yawAxis.GetAxis() * maxSpeed * Time.deltaTime,0 ); 
     }
 }

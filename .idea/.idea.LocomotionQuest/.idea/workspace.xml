@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c294f00-4617-4fac-beeb-8a2f222af167" name="Default Changelist" comment="" />
+    <list default="true" id="7c294f00-4617-4fac-beeb-8a2f222af167" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GroundDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GroundDemo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vRotation/JoystickRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/vRotation/JoystickRotation.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,6 +112,7 @@
       <workItem from="1620811330390" duration="3199000" />
       <workItem from="1620814616623" duration="3049000" />
       <workItem from="1621249527557" duration="5572000" />
+      <workItem from="1621413665353" duration="762000" />
     </task>
     <servers />
   </component>
