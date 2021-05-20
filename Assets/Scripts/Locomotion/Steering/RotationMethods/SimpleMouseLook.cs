@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimpleMouseLook : IRotationMethod
+public class SimpleMouseLook : RotationMethod
 {
     public float pitchTurningLimit = 90;
     public float yawTurningLimit = 180;
@@ -10,6 +10,6 @@ public class SimpleMouseLook : IRotationMethod
     
     void Update()
     {
-        transform.eulerAngles = new Vector3( pitchAxis.Get() * pitchTurningLimit , yawAxis.Get() * yawTurningLimit, rollAxis.Get() * rollTurningLimit);
+        transform.eulerAngles = new Vector3( pitchAxis.GetAxisInput() * pitchTurningLimit , yawAxis.GetAxisInput() * yawTurningLimit, rollAxis.GetAxisInput() * rollTurningLimit);
     }
 }

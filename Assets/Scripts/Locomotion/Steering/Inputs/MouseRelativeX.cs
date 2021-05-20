@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MouseRelativeX : IAxisInput
+public class MouseRelativeX : AxisInput
 {
-    public override float Get()
+    public override float GetAxisInput()
     {
         // relative position to bottom left corner [0,1]
         float relativePosition = Input.mousePosition.x / Screen.width;

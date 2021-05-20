@@ -3049,7 +3049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   forwardAxis: {fileID: 1788165369}
-  rightAxis: {fileID: 492968397}
+  rightAxis: {fileID: 0}
   upAxis: {fileID: 0}
   speedAxis: {fileID: 0}
   maxSpeed: 5
@@ -3066,7 +3066,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rollAxis: {fileID: 0}
-  yawAxis: {fileID: 1095308644}
+  yawAxis: {fileID: 0}
   pitchAxis: {fileID: 0}
   maxSpeedPerAxis: 90
 --- !u!4 &1264944053 stripped

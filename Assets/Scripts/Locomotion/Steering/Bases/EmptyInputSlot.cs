@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EmptyInputSlot : IAxisInput
+public class EmptyInputSlot : AxisInput
 {
-    public override float Get()
+    public override float GetAxisInput()
     {
         return 0f;
     }

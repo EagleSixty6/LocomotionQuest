@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class IAxisInput : MonoBehaviour
+public interface IProvidesAxisInput 
 {
-    public abstract float Get();
+    float GetAxisInput();
 }

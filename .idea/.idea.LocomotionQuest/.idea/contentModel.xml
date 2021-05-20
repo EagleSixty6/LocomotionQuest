@@ -14,8 +14,14 @@
         <e p="Scripts" t="Include">
           <e p="Locomotion" t="Include">
             <e p="Steering" t="Include">
-              <e p="Inputs" t="Include">
+              <e p="Bases" t="Include">
+                <e p="AxisInput.cs" t="Include" />
+                <e p="AxisTransferfunction.cs" t="Include" />
                 <e p="EmptyInputSlot.cs" t="Include" />
+                <e p="RotationMethod.cs" t="Include" />
+                <e p="TranslationMethod.cs" t="Include" />
+              </e>
+              <e p="Inputs" t="Include">
                 <e p="KeyboardX.cs" t="Include" />
                 <e p="KeyboardY.cs" t="Include" />
                 <e p="MouseRelativeX.cs" t="Include" />
@@ -25,11 +31,7 @@
                 </e>
               </e>
               <e p="Interfaces" t="Include">
-                <e p="IAxisInput.cs" t="Include" />
-                <e p="IAxisTransferfunction.cs" t="Include" />
-                <e p="IRotationMethod.cs" t="Include" />
-                <e p="ISpeedInput.cs" t="Include" />
-                <e p="ITranslationMethod.cs" t="Include" />
+                <e p="IProvidesAxisInput.cs" t="Include" />
               </e>
               <e p="RotationMethods" t="Include">
                 <e p="JoystickRotation.cs" t="Include" />

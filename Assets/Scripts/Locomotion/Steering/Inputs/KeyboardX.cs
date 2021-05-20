@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyboardX : IAxisInput
+public class KeyboardX : AxisInput
 {
     private float axis;
 
@@ -22,8 +22,8 @@ public class KeyboardX : IAxisInput
         
         axis = temp;
     }
-    
-    public override float Get()
+
+    public override float GetAxisInput()
     {
         return axis;
     }
