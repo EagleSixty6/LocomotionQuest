@@ -23,26 +23,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LocomotionQuest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GroundDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GroundDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/EmptyInputSlot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/EmptyInputSlot.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardY.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardY.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeY.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeY.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Transferfunctions/Exponential.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Transferfunctions/Exponential.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisTransferfunction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IAxisTransferfunction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IRotationMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IRotationMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ISpeedInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ISpeedInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ITranslationMethod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/ITranslationMethod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/JoystickRotation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/JoystickRotation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/SimpleMouseLook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/SimpleMouseLook.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/AxisTransferfunction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/AxisTransferfunction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/TranslationMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/TranslationMethod.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/TranslationMethods/JoystickTranslation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/TranslationMethods/JoystickTranslation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +36,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardY.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Transferfunctions/Exponential.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Speeds/MaxAxisSpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IProvidesSpeedInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/DirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/SpeedInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/TranslationMethods/JoystickTranslation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IProvidesDirectionInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -90,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases&amp;Interfaces/IProvidesAxisInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases&amp;Interfaces/IAxisTransferfunction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Transferfunctions/Exponential.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/TranslationMethods/JoystickTranslation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/SimpleMouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/RotationMethods/JoystickRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases&amp;Interfaces/AxisInput.cs" />
@@ -102,6 +88,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/KeyboardY.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/MouseRelativeY.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IProvidesDirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/AxisInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/DirectionInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/GroundBasedPlayerCenteredDirection.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/TranslationMethods/JoystickTranslation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/AxisTransferfunction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Interfaces/IProvidesSpeedInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/SpeedInput.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Inputs/Speeds/MaxAxisSpeed.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Locomotion/Steering/Bases/TranslationMethod.cs" />
       </list>
     </option>
   </component>
@@ -149,7 +145,7 @@
       <workItem from="1620814616623" duration="3049000" />
       <workItem from="1621249527557" duration="5572000" />
       <workItem from="1621413665353" duration="7249000" />
-      <workItem from="1621495619952" duration="3756000" />
+      <workItem from="1621495619952" duration="6359000" />
     </task>
     <servers />
   </component>

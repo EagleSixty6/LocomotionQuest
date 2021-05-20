@@ -17,21 +17,31 @@
               <e p="Bases" t="Include">
                 <e p="AxisInput.cs" t="Include" />
                 <e p="AxisTransferfunction.cs" t="Include" />
+                <e p="DirectionInput.cs" t="Include" />
                 <e p="EmptyInputSlot.cs" t="Include" />
                 <e p="RotationMethod.cs" t="Include" />
+                <e p="SpeedInput.cs" t="Include" />
                 <e p="TranslationMethod.cs" t="Include" />
               </e>
               <e p="Inputs" t="Include">
+                <e p="Directions" t="Include">
+                  <e p="GroundBasedPlayerCenteredDirection.cs" t="Include" />
+                </e>
                 <e p="KeyboardX.cs" t="Include" />
                 <e p="KeyboardY.cs" t="Include" />
                 <e p="MouseRelativeX.cs" t="Include" />
                 <e p="MouseRelativeY.cs" t="Include" />
+                <e p="Speeds" t="Include">
+                  <e p="MaxAxisSpeed.cs" t="Include" />
+                </e>
                 <e p="Transferfunctions" t="Include">
                   <e p="Exponential.cs" t="Include" />
                 </e>
               </e>
               <e p="Interfaces" t="Include">
                 <e p="IProvidesAxisInput.cs" t="Include" />
+                <e p="IProvidesDirectionInput.cs" t="Include" />
+                <e p="IProvidesSpeedInput.cs" t="Include" />
               </e>
               <e p="RotationMethods" t="Include">
                 <e p="JoystickRotation.cs" t="Include" />
