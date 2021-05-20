@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class MaxAxisSpeed : SpeedInput
+public class MaxAxisSpeedAbsolute : SpeedInput
 {
-    public override float GetSpeed()
+    public override float GetAxisInput()
     {
         float result = 0f;
         

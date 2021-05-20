@@ -26,13 +26,14 @@
               <e p="Inputs" t="Include">
                 <e p="Directions" t="Include">
                   <e p="GroundBasedPlayerCenteredDirection.cs" t="Include" />
+                  <e p="YawRotation.cs" t="Include" />
                 </e>
                 <e p="KeyboardX.cs" t="Include" />
                 <e p="KeyboardY.cs" t="Include" />
                 <e p="MouseRelativeX.cs" t="Include" />
                 <e p="MouseRelativeY.cs" t="Include" />
                 <e p="Speeds" t="Include">
-                  <e p="MaxAxisSpeed.cs" t="Include" />
+                  <e p="MaxAxisSpeedAbsolute.cs" t="Include" />
                 </e>
                 <e p="Transferfunctions" t="Include">
                   <e p="Exponential.cs" t="Include" />
@@ -41,7 +42,6 @@
               <e p="Interfaces" t="Include">
                 <e p="IProvidesAxisInput.cs" t="Include" />
                 <e p="IProvidesDirectionInput.cs" t="Include" />
-                <e p="IProvidesSpeedInput.cs" t="Include" />
               </e>
               <e p="RotationMethods" t="Include">
                 <e p="JoystickRotation.cs" t="Include" />

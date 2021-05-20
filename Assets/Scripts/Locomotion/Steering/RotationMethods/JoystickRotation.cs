@@ -8,18 +8,6 @@ public class JoystickRotation : RotationMethod
     
     void Update()
     {
-        //transform.Rotate(0, yawAxis.GetAxis() * maxSpeed * Time.deltaTime,0 );
-        
-        Vector3 eulers = transform.eulerAngles;
-        eulers.y = eulers.y + yawAxis.GetAxisInput() * maxSpeedPerAxis * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(eulers);
-        
-        eulers = transform.eulerAngles;
-        eulers.x = eulers.x + pitchAxis.GetAxisInput() * maxSpeedPerAxis * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(eulers);
-        
-        eulers = transform.eulerAngles;
-        eulers.z = eulers.z + rollAxis.GetAxisInput() * maxSpeedPerAxis * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(eulers);
+        transform.Rotate(axis.GetDirectionInput(), rotationSpeed.GetAxisInput() * Time.deltaTime * maxSpeedPerAxis);
     }
 }

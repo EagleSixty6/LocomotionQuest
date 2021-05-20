@@ -5,5 +5,5 @@ using UnityEngine;
 public abstract class TranslationMethod : MonoBehaviour
 {
     public DirectionInput dir;
-    public SpeedInput speed;
+    public AxisInput speed;
 }

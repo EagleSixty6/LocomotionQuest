@@ -9,6 +9,6 @@ public class JoystickTranslation : TranslationMethod
     void Update()
     {
         // frame rate independet, iterativbe movement of the player platform
-        transform.position += speed.GetSpeed() * maxSpeed * Time.deltaTime * dir.GetDirectionInput();
+        transform.position += speed.GetAxisInput() * maxSpeed * Time.deltaTime * dir.GetDirectionInput();
     }
 }

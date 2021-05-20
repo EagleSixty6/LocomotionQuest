@@ -8,7 +8,7 @@ public abstract class DirectionInput : MonoBehaviour, IProvidesDirectionInput
     public AxisInput rightAxis;
     public AxisInput upAxis;
     
-    // This has to be a global direction
+    // This has to be a global direction when serving as translation dir and a local axis when serving as rotation axis
     public abstract Vector3 GetDirectionInput();
     
     void Start()

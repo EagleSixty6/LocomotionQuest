@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class SpeedInput : MonoBehaviour, IProvidesSpeedInput
+public abstract class SpeedInput : AxisInput
 {
     public List<AxisInput> inputs;
-    
-    public abstract float GetSpeed();
+
+    public abstract override float GetAxisInput();
 }
