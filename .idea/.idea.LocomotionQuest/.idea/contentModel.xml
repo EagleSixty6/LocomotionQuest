@@ -32,6 +32,7 @@
                 <e p="KeyboardY.cs" t="Include" />
                 <e p="MouseRelativeX.cs" t="Include" />
                 <e p="MouseRelativeY.cs" t="Include" />
+                <e p="MYscript.cs" t="Include" />
                 <e p="Speeds" t="Include">
                   <e p="MaxAxisSpeedAbsolute.cs" t="Include" />
                 </e>
